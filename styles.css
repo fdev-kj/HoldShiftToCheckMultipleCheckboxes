@@ -4,4 +4,31 @@
 
 html {
   height: 100vh;
+  background-color: goldenrod;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card__items {
+  list-style: none;
+  padding: 0;
+}
+
+.card__item {
+  margin: 10px 20px;
+  border-bottom: 1px dashed gray;
+  padding: 0 10px 10px;
+}
+
+input {
+  margin-right: 20px;
 }
